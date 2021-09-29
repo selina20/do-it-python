@@ -16,4 +16,7 @@ for j in i:
         k.append(float(re.sub(',','',j))) #쉼표(,)를 삭제하고 실수형으로 바꿔 k에 저장
     else: #j에 숫자가 들어있지 않다면
         k.append(j) #k에 그대로 저장
+        
 print(k)
+
+
